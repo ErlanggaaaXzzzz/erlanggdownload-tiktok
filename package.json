@@ -1,0 +1,12 @@
+{
+  "name": "erlangga-download-tiktok",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web downloader TikTok (tanpa watermark) + API publik dengan API key tersimpan di Vercel KV.",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/kv": "^2.0.0"
+  }
+}
