@@ -71,7 +71,7 @@ curl "https://erlanggdownload-tiktok.vercel.app/api/keys?key=ERL-3f9a8b2c1d"
 
 ### Download video
 ```bash
-curl "https://erlanggdownload-tiktok..vercel.app/api/download?url=https://vt.tiktok.com/xxxxx/" \
+curl "https://erlanggdownload-tiktok.vercel.app/api/download?url=https://vt.tiktok.com/xxxxx/" \
   -H "X-API-Key: ERL-3f9a8b2c1d"
 ```
 Response:
