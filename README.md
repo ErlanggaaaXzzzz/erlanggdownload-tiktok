@@ -51,7 +51,7 @@ Saat ini penonaktifan key dilakukan manual lewat Vercel KV dashboard (tab **Stor
 
 ### Membuat API key
 ```bash
-curl -X POST "https://<domain-kamu>.vercel.app/api/keys"
+curl -X POST "https://erlanggdownload-tiktok.vercel.app/api/keys"
 ```
 Response:
 ```json
@@ -66,12 +66,12 @@ Response:
 
 ### Mengecek status key
 ```bash
-curl "https://<domain-kamu>.vercel.app/api/keys?key=ERL-3f9a8b2c1d"
+curl "https://erlanggdownload-tiktok.vercel.app/api/keys?key=ERL-3f9a8b2c1d"
 ```
 
 ### Download video
 ```bash
-curl "https://<domain-kamu>.vercel.app/api/download?url=https://vt.tiktok.com/xxxxx/" \
+curl "https://erlanggdownload-tiktok..vercel.app/api/download?url=https://vt.tiktok.com/xxxxx/" \
   -H "X-API-Key: ERL-3f9a8b2c1d"
 ```
 Response:
